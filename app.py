@@ -10,7 +10,7 @@ from langchain_community.embeddings import FakeEmbeddings
 st.set_page_config(page_title="EduBridge", layout="wide")
 
 # -------- API KEY --------
-client = OpenAI(api_key=st.secrets["Osk-proj-LdQir3rUwCSzXxctPx0pH_bgUdpyR28cr3jw5sKyk8zs8Vzpjkm3funBWP1lObHOvEhx_F9DmJT3BlbkFJywKFgUbH7_TT8tBB5xHN0J1w3t8FLsjzkjswepMpoKZT_X8sd3fnnBhm6ePw6QJiexp_29BJAA"])
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # -------- DESIGN --------
 st.markdown("""
