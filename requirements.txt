@@ -1,5 +1,6 @@
 streamlit
 pypdf
+openai
 langchain
 langchain-community
 langchain-text-splitters
